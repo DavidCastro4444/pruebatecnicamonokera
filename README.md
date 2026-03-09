@@ -588,26 +588,7 @@ docker-compose down --rmi all
 
 ---
 
-## 🤝 Contribuir
 
-1. Fork el proyecto
-2. Crear feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push al branch (`git push origin feature/AmazingFeature`)
-5. Abrir Pull Request
-
-**Antes de hacer PR:**
-- Ejecutar tests: `bundle exec rspec`
-- Ejecutar smoke test: `./scripts/smoke_e2e.sh`
-- Verificar que no hay warnings de RuboCop (si está configurado)
-
----
-
-## 📄 Licencia
-
-Este proyecto es un ejemplo educativo de arquitectura de microservicios con Rails.
-
----
 
 ## 🎓 Conceptos Demostrados
 
