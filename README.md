@@ -2,7 +2,7 @@
 
 Arquitectura de microservicios con Rails API, comunicación HTTP síncrona, mensajería asíncrona con RabbitMQ, y bases de datos PostgreSQL independientes.
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto implementa una arquitectura de microservicios que demuestra:
 
@@ -31,7 +31,7 @@ Este proyecto implementa una arquitectura de microservicios que demuestra:
 
 ---
 
-## 🏗️ Arquitectura - Flujo de Creación de Orden
+## Arquitectura - Flujo de Creación de Orden
 
 ```mermaid
 sequenceDiagram
@@ -88,7 +88,7 @@ sequenceDiagram
 
 ---
 
-## 🚀 Setup Local
+## Setup Local
 
 ### Requisitos Previos
 
@@ -147,7 +147,7 @@ open http://localhost:15672  # guest/guest
 
 ---
 
-## 🐰 Ejecutar Consumer RabbitMQ
+##  Ejecutar Consumer RabbitMQ
 
 ### Background (Recomendado para desarrollo)
 
@@ -169,7 +169,7 @@ docker-compose exec customer_service ps aux | grep rabbitmq
 
 ---
 
-## 🧪 Ejecutar Tests
+##  Ejecutar Tests
 
 ### Order Service
 
@@ -217,7 +217,7 @@ docker-compose exec customer_service bundle exec rspec --format documentation
 
 ---
 
-## 🔥 Smoke Test End-to-End
+##  Smoke Test End-to-End
 
 Ejecuta un test completo del flujo: Order Service → RabbitMQ → Customer Service
 
@@ -240,7 +240,7 @@ Ver documentación completa: [SMOKE_TEST.md](SMOKE_TEST.md)
 
 ---
 
-## 🎯 Decisiones de Arquitectura (ADR)
+##  Decisiones de Arquitectura (ADR)
 
 ### 1. Idempotencia con `processed_events`
 
@@ -590,7 +590,7 @@ docker-compose down --rmi all
 
 
 
-## 🎓 Conceptos Demostrados
+##  Conceptos Demostrados
 
 - ✅ Microservices Architecture
 - ✅ Database per Service Pattern
