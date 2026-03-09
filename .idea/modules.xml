@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customer_service.iml" filepath="$PROJECT_DIR$/.idea/modules/customer_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order_service.iml" filepath="$PROJECT_DIR$/.idea/modules/order_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rails-microservices-monorepo.iml" filepath="$PROJECT_DIR$/.idea/rails-microservices-monorepo.iml" />
+    </modules>
+  </component>
+</project>
