@@ -164,8 +164,7 @@ If future requirements demand integration with external systems, we can add `ext
 
 ## Future Enhancements
 
-1. **RabbitMQ Consumer** - Listen for `order.created` events and increment `orders_count`
-2. **Additional Endpoints** - GET /customers (list), POST /customers (create)
-3. **Pagination** - For customer listing
-4. **Search** - Search customers by name or address
-5. **Caching** - Redis cache for frequently accessed customers
+1. **Additional Endpoints** - GET /customers (list), POST /customers (create)
+2. **Pagination** - For customer listing
+3. **Search** - Search customers by name or address
+4. **Caching** - Redis cache for frequently accessed customers
